@@ -15,16 +15,16 @@ app.get('/at', function(req, res) {
     res.render('pages/AT');
 });
 // about page
-app.get('/dashboard', function(req, res) {
-    res.render('pages/dashboard');
+app.get('/d', function(req, res) {
+    res.render('pages/d');
 });
 // about page
 app.get('/paitients', function(req, res) {
     res.render('pages/paitients');
 });
 // about page
-app.get('/schedeule', function(req, res) {
-    res.render('pages/schedeule');
+app.get('/s', function(req, res) {
+    res.render('pages/s');
 });
 
 app.listen(3000);
