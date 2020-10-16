@@ -19,12 +19,16 @@ app.get('/d', function(req, res) {
     res.render('pages/d');
 });
 // about page
-app.get('/paitients', function(req, res) {
-    res.render('pages/paitients');
+app.get('/p', function(req, res) {
+    res.render('pages/p');
 });
 // about page
 app.get('/s', function(req, res) {
     res.render('pages/s');
+});
+// about page
+app.get('/pd', function(req, res) {
+    res.render('pages/pd');
 });
 
 app.listen(3000);
